@@ -51,6 +51,16 @@ const Hero = () => {
                 />
             </div>
         </div>
+
+        <div className='relative flex flex-1 items-start '>
+            <div className='relative z-20 w-[268px] flex-col gap-8 rounded-3xl bg-green-90 py-8 px-7'>
+                <div className='flex flex-col'>
+                    <div className='flexBetween'>
+                        <p className='regular-16 text-gray-20'></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
   )
 }

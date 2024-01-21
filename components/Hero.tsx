@@ -53,20 +53,29 @@ const Hero = () => {
         </div>
 
         <div className='relative flex flex-1 items-start '>
-            <div className='relative z-20 w-[268px] flex-col gap-8 rounded-3xl bg-green-90 py-8 px-7'>
+            <div className=' flex relative z-20 w-[268px] flex-col gap-8 rounded-3xl bg-green-90 py-8 px-7'>
                 <div className='flex flex-col'>
                     <div className='flexBetween'>
                         <p className='regular-16 text-gray-20'>Location</p>
                         <Image src="/close.svg" alt='close' width={24} height={24}/>
                     </div>
+                    <p className='bold-20 text-white'>Mt Olookwe</p>
+                </div>
 
-                    <div className='flexBetween'>
-                        <div className="flex flex-col">
-                            <p className='regular-16 block text-gray-20'>Distance</p>
-                            <p className='bold-20 text-white'>173.28 miles</p>
-                        </div>
+                <div className='flexBetween'>
+                    <div className="flex flex-col">
+                        <p className='regular-16 block text-gray-20'>Distance</p>
+                        <p className='bold-20 text-white'>173.28 miles</p>
                     </div>
                 </div>
+
+                <div className='flexBetween'>
+                    <div className="flex flex-col">
+                        <p className='regular-16 block text-gray-20'>Elevation</p>
+                        <p className='bold-20 text-white'>1 km</p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>

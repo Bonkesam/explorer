@@ -17,7 +17,7 @@ const Hero = () => {
                 height={50} 
                 className='absolute left-[-5px] top-[-30px] w-10lg:w-[50px]'
             />
-            <h1 className='bold-52 lg:bold-88'>Naivasha Camping Zone</h1>
+            <h1 className='bold-52 lg:bold-88'>Vasha Camp</h1>
             <p className='regular-16 mt-6 text-gray-30 xl:max-w-[520px]'>
             We want to be on each of your journeys seeking the satisfaction of seeing the incorruptible beauty of nature. We can help you on an adventure around the world in just one app
             </p>
@@ -67,14 +67,14 @@ const Hero = () => {
                         <p className='regular-16 block text-gray-20'>Distance</p>
                         <p className='bold-20 text-white'>173.28 miles</p>
                     </div>
-                </div>
 
-                <div className='flexBetween'>
                     <div className="flex flex-col">
                         <p className='regular-16 block text-gray-20'>Elevation</p>
                         <p className='bold-20 text-white'>1 km</p>
                     </div>
+
                 </div>
+
 
             </div>
         </div>

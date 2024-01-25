@@ -1,10 +1,22 @@
-import React from 'react'
+import React from 'react';
+import Image from "next/image";
 
 const Features = () => {
   return (
-    <div>
-      Features section
-    </div>
+    <section className='flex-colflexCenter overflow-hidden bg-feature-bg bg-center bg-no-repeat py-24'>
+      <div className='max-container padding-container relative w-full justify-end'>
+        <div>
+          <Image 
+            src="/phone.png"
+            alt="phone"
+            width={440}
+            height={1000}
+            className="feature-phone"
+          />
+        </div>
+
+      </div>
+    </section>
   )
 }
 
